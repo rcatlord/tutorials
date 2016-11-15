@@ -2,7 +2,7 @@
 ## Using R as GIS ##
 
 # set the working directory
-setwd("/Users/hcpartridge/Desktop/Snow_cholera_maps/Bivand")
+setwd("")
 
 # download Snow's cholera data collated and digitised by Roger Bivand
 download.file("http://geostat-course.org/system/files/data_0.zip", destfile="data_0.zip")
