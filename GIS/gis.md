@@ -71,7 +71,7 @@ boroughs$NAME
 plot(boroughs, border = "blue")
 ```
 
-![](gis_files/figure-markdown_github/unnamed-chunk-4-1.png)
+![](https://github.com/rcatlord/tutorials/blob/master/GIS/boundary.png)
 
 **Load the crime data**
 
@@ -131,7 +131,7 @@ plot(crimes)
 plot(boroughs, border = "blue", add = T)
 ```
 
-![](gis_files/figure-markdown_github/unnamed-chunk-10-1.png)
+![](https://github.com/rcatlord/tutorials/blob/master/GIS/points_unclipped.png)
 
 <br>
 
@@ -152,7 +152,7 @@ plot(crimes)
 plot(boroughs, border = "blue", add = T)
 ```
 
-![](gis_files/figure-markdown_github/unnamed-chunk-12-1.png)
+![](https://github.com/rcatlord/tutorials/blob/master/GIS/points_clipped.png)
 
 <br>
 
@@ -232,10 +232,7 @@ ggplot() +
   labs(title = "Police recorded Bicycle theft offences by borough\n(May 2016)")
 ```
 
-    ## Warning: `panel.margin` is deprecated. Please use `panel.spacing` property
-    ## instead
-
-![](gis_files/figure-markdown_github/unnamed-chunk-18-1.png)
+![](https://github.com/rcatlord/tutorials/blob/master/GIS/choropleth.png)
 
 <br>
 
