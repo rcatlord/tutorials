@@ -227,7 +227,6 @@ ggplot() +
         fill = bicycle_theft), color = "white", size = 0.2) +
   coord_map() +
   scale_fill_gradientn('Frequency\n', colours=brewer.pal(5,"RdPu"), breaks = classes$brks) +
-  guides(title = "Offences") +
   theme_nothing(legend = TRUE) +
   labs(title = "Police recorded Bicycle theft offences by borough\n(May 2016)")
 ```
