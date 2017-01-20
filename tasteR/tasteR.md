@@ -313,7 +313,7 @@ ggplot(temp, aes(reorder(country, rate), rate))+
   ggtitle("Top 10 countries by incarceration rate") 
 ```
 
-![](https://github.com/rcatlord/tutorials/blob/master/taster/plot.png)
+![](https://github.com/rcatlord/tutorials/blob/master/tasteR/plot.png)
 
 You'll notice that we also loaded the [ggthemes](https://cran.r-project.org/web/packages/ggthemes/index.html) package. The `theme_tufte()` function allowed us to style the plot in a manner similar to those adopted in [Edward Tufte's](https://www.edwardtufte.com/tufte/) graphics.
 
