@@ -71,7 +71,7 @@ boroughs$NAME
 plot(boroughs, border = "blue")
 ```
 
-![](https://github.com/rcatlord/tutorials/blob/master/GIS/boundary.png)
+![](https://github.com/rcatlord/tutorials/blob/master/GIS/outputs/boundary.png)
 
 **Load the crime data**
 
@@ -131,7 +131,7 @@ plot(crimes)
 plot(boroughs, border = "blue", add = T)
 ```
 
-![](https://github.com/rcatlord/tutorials/blob/master/GIS/points_unclipped.png)
+![](https://github.com/rcatlord/tutorials/blob/master/GIS/outputs/points_unclipped.png)
 
 <br>
 
@@ -152,7 +152,7 @@ plot(crimes)
 plot(boroughs, border = "blue", add = T)
 ```
 
-![](https://github.com/rcatlord/tutorials/blob/master/GIS/points_clipped.png)
+![](https://github.com/rcatlord/tutorials/blob/master/GIS/outputs/points_clipped.png)
 
 <br>
 
@@ -231,7 +231,7 @@ ggplot() +
   labs(title = "Police recorded Bicycle theft offences by borough\n(May 2016)")
 ```
 
-![](https://github.com/rcatlord/tutorials/blob/master/GIS/choropleth.png)
+![](https://github.com/rcatlord/tutorials/blob/master/GIS/outputs/choropleth.png)
 
 <br>
 
